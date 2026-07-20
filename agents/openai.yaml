@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 产品开发翻译官"
+  short_description: "为非技术用户完成写代码前的产品与技术设计，并用通俗语言解释。"
+  default_prompt: "使用 $nontechnical-product-architect，先不要写代码。请把我的产品想法整理成我能理解、能判断并能交给 Codex 执行的方案。"
+policy:
+  allow_implicit_invocation: true
