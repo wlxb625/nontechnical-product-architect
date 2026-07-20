@@ -1,0 +1,11 @@
+id,should_trigger,prompt,expected_mode
+trigger-01,true,"我是非计算机专业，想用 AI 做一个学习搭子 App，先帮我把需求和开发流程理清楚，不要写代码",完整产品模式
+trigger-02,true,"帮我把这个网站想法收缩成一个周末能完成的 MVP，并解释技术名词",快速 MVP 模式
+trigger-03,true,"我看不懂这份 Next.js、Supabase、RAG 和 Redis 的技术方案，能用普通话解释并判断是否过度设计吗",技术翻译模式
+trigger-04,true,"这是我的 PRD，帮我检查哪里矛盾、缺流程或者太复杂",方案审查模式
+trigger-05,true,"产品方案已经确定，帮我拆成 Codex 可以逐步完成和验收的任务",Codex 交接模式
+negative-01,false,"修复 React 页面中按钮点击后没有反应的问题",none
+negative-02,false,"解释 JavaScript 的闭包是什么",none
+negative-03,false,"给这个函数补单元测试",none
+edge-01,true,"我想做 App，但完全不懂前端后端数据库，你先告诉我开发前应该想清楚什么",完整产品模式
+edge-02,true,"我已经有代码了，但不知道目前的数据库和 AI 记忆设计是否合理，请面向非专业人员审查",方案审查模式
